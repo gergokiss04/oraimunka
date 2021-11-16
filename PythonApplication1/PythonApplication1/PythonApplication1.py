@@ -16,3 +16,13 @@ for x in szamok:
     if(x==1):
         vane=True
 print(vane)
+
+#Megszámlálás tétele:Hány darab hármas van benne ? 
+db=0
+for x in szamok:
+    if (x==3):
+         db=db+1;
+print(db)
+
+
+
