@@ -52,3 +52,33 @@ for x in szamok:
         max1=x
 print(max1)
 print(max(szamok))
+
+print("Feladat")
+
+lista=[4,9,33,53,67,74,99,61,1,10]
+#Átlag
+szamolas=sum(lista)/len(lista)
+print(szamolas)
+#Minimum
+print(min(lista))
+#Maximum
+print(max(lista))
+#Van-e benne páros szám?
+vane=False
+for x in lista:
+    if(x%2==0):
+        vane=True
+print(vane)
+#Add össze az 50-nél nagyobb számokat
+otven=0
+for x in lista:
+    if (x>50): 
+        otven=otven+x;
+print(otven)
+
+#Hány darab 9-es van benne?
+db=0
+for x in lista:
+    if (x==9):
+         db=db+1;
+print(db)
